@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math for AI</title>
+
+  <!-- KaTeX for math typesetting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="menu-toggle" aria-label="Toggle table of contents">☰</button>
+
+  <nav id="sidebar">
+    <div class="brand">
+      <div class="brand-title">Math for AI</div>
+      <div class="brand-subtitle">An interactive companion</div>
+    </div>
+    <div id="toc"><!-- table of contents is built by app.js --></div>
+  </nav>
+
+  <main id="content-wrap">
+    <article id="content"><!-- the active section is rendered here --></article>
+    <div id="pager"><!-- prev / next buttons --></div>
+    <footer id="page-footer">
+      <span>Math for AI</span>
+    </footer>
+  </main>
+
+  <div id="backdrop"></div>
+
+  <!-- Shared toolbox of optional helpers -->
+  <script src="toolkit.js"></script>
+
+  <!-- Section order (edit freely to reorder / add) -->
+  <script src="sections/manifest.js"></script>
+
+  <!-- One file per section -->
+  <script src="sections/prob-intro.js"></script>
+  <script src="sections/prob-practice.js"></script>
+  <script src="sections/prob-distributions.js"></script>
+  <script src="sections/dist-practice.js"></script>
+  <script src="sections/lab-langflow-setup.js"></script>
+  <script src="sections/lab-gemini-chatbot.js"></script>
+  <script src="sections/lab-claude-chatbot.js"></script>
+  <script src="sections/next-word-distribution.js"></script>
+  <script src="sections/lab-loop-to-file.js"></script>
+  <script src="sections/tally-your-results.js"></script>
+  <script src="sections/random-integer.js"></script>
+  <script src="sections/exponential-function.js"></script>
+  <script src="sections/exponential-practice.js"></script>
+  <script src="sections/logits-and-sigmoid.js"></script>
+  <script src="sections/odds-prob-practice.js"></script>
+  <script src="sections/softmax.js"></script>
+  <script src="sections/softmax-practice.js"></script>
+  <script src="sections/temperature.js"></script>
+  <script src="sections/lab-temperature-experiment.js"></script>
+  <script src="sections/vectors-intro.js"></script>
+  <script src="sections/states-as-vectors.js"></script>
+  <script src="sections/vector-arithmetic.js"></script>
+  <script src="sections/vector-magnitude.js"></script>
+  <script src="sections/vector-practice.js"></script>
+  <script src="sections/dot-product.js"></script>
+  <script src="sections/cosine-similarity.js"></script>
+  <script src="sections/dot-cosine-practice.js"></script>
+  <script src="sections/embeddings-intro.js"></script>
+  <script src="sections/lab-word-matcher.js"></script>
+  <script src="sections/vector-pooling.js"></script>
+  <script src="sections/lab-sentence-matcher.js"></script>
+  <script src="sections/confusion-matrix.js"></script>
+  <script src="sections/precision-recall.js"></script>
+  <script src="sections/threshold-dial.js"></script>
+  <script src="sections/evaluation-practice.js"></script>
+  <script src="sections/lab-evaluate-classifier.js"></script>
+
+  <!-- App shell: routing, sidebar, math rendering -->
+  <script src="app.js"></script>
+</body>
+</html>

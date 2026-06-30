@@ -1,0 +1,8 @@
+# Python virtual environment (huge; recreate with embed_words.py instructions)
+.venv/
+__pycache__/
+*.pyc
+
+# Local tooling / OS cruft
+.claude/
+.DS_Store
