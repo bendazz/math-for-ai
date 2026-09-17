@@ -47,6 +47,7 @@ window.SECTIONS = [
   { id: "lab-word-matcher",       title: "Lab 6: A Tiny Search Engine for Words", group: "Embeddings" },
   { id: "vector-pooling",         title: "Pooling: From Words to Sentences", group: "Embeddings" },
   { id: "chunking-practice",      title: "Practice: Chunking by Hand",       group: "Embeddings" },
+  { id: "retrieval-practice",     title: "Practice: Precision and Recall in Search", group: "Embeddings" },
   { id: "lab-sentence-matcher",   title: "Lab 7: A Search Engine for Sentences", group: "Embeddings" },
 
   { id: "confusion-matrix",       title: "The Confusion Matrix",             group: "Evaluation" },
