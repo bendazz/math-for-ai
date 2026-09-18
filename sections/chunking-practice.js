@@ -37,8 +37,12 @@
        buffer is non-empty: total + len + sep_len > chunk_size.
        The test is STRICTLY greater, so landing exactly on the
        chunk size still fits (problem 2 turns on this).
-     - On emit, pop from the FRONT while total > chunk_overlap.
-       Also strictly greater, so a buffer of exactly the overlap
+     - On emit, pop from the FRONT while total > chunk_overlap,
+       OR while the incoming atom still would not fit beside what
+       is left (total + len + sep_len > chunk_size, total > 0).
+       No problem in this set triggers the second condition; it is
+       on the cheat sheet so the rule is complete. The first test is
+       strictly greater, so a buffer of exactly the overlap
        stops popping (problems 4 and 5 both land on this).
      - Joined chunks are .strip()ed.
 
@@ -109,8 +113,9 @@
          <ul>
            <li><strong>Fits:</strong> add it. The buffer grows by the atom plus one separator.</li>
            <li><strong>Does not fit:</strong> emit the buffer as a chunk. Then <strong>pop atoms off
-           the front while the buffer is bigger than Chunk Overlap.</strong> Whatever survives is
-           carried into the next chunk. Now add the atom.</li>
+           the front while the buffer is bigger than Chunk Overlap</strong> — <strong>or while the atom
+           still would not fit</strong> beside what is left. Whatever survives is carried into the next
+           chunk. Now add the atom.</li>
          </ul></li>
          <li>At the end of the text, emit whatever is still in the buffer.</li>
        </ol>
