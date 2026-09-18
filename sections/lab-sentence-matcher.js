@@ -37,7 +37,7 @@
   ];
 
   const html = `
-    <div class="eyebrow">Embeddings · 6</div>
+    <div class="eyebrow">Embeddings · 7</div>
     <h1>Lab 7: A Search Engine for Sentences</h1>
 
     <p>In Lab 6 you built a matcher for single words. Now you'll do the same thing for whole

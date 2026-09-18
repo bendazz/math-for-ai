@@ -71,7 +71,7 @@
 
   const html = `
     ${(T.resetProblems(), "")}
-    <div class="eyebrow">Embeddings · 5</div>
+    <div class="eyebrow">Embeddings · 6</div>
     <h1>Practice: Precision and Recall in Search</h1>
 
     <p>Your search engine ranks every sentence in a collection by cosine similarity
