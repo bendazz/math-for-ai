@@ -25,7 +25,7 @@
   const T = window.Toolkit;
 
   const html = `
-    <div class="eyebrow">Evaluation · 3</div>
+    <div class="eyebrow">Evaluation · 4</div>
     <h1>The Threshold Dial</h1>
 
     <p>Back in the sigmoid section, the spam filter didn't really shout "spam!" or "fine!" — it produced a

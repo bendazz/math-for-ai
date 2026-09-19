@@ -52,6 +52,7 @@ window.SECTIONS = [
   { id: "lab-sentence-matcher",   title: "Lab 7: A Search Engine for Sentences", group: "Embeddings" },
 
   { id: "confusion-matrix",       title: "The Confusion Matrix",             group: "Evaluation" },
+  { id: "confusion-matrix-practice", title: "Practice: The Confusion Matrix", group: "Evaluation" },
   { id: "precision-recall",       title: "Precision and Recall",             group: "Evaluation" },
   { id: "threshold-dial",         title: "The Threshold Dial",               group: "Evaluation" },
   { id: "evaluation-practice",    title: "Practice: Evaluating a Classifier", group: "Evaluation" },

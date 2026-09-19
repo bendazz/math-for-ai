@@ -27,7 +27,7 @@
   const T = window.Toolkit;
 
   const html = `
-    <div class="eyebrow">Evaluation · 2</div>
+    <div class="eyebrow">Evaluation · 3</div>
     <h1>Precision and Recall</h1>
 
     <p>Accuracy mashed the four cells into one number and lost the plot. The fix is to ask two sharper

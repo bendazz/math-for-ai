@@ -1,5 +1,5 @@
 /* ============================================================
-   Section: Lab 8 — Build a Spam Filter, Then Grade It  (Evaluation · 5)
+   Section: Lab 8 — Build a Spam Filter, Then Grade It  (Evaluation · 6)
    Registered under id "lab-evaluate-classifier" (see manifest.js).
    THE COURSE FINALE / capstone eval lab.
 
@@ -53,7 +53,7 @@
   const PROMPT_HEAD = "Rate how likely this message is spam, from 0 (definitely not spam) to 100 (definitely spam). Reply with only the number. Message: ";
 
   const html = `
-    <div class="eyebrow">Evaluation · 5</div>
+    <div class="eyebrow">Evaluation · 6</div>
     <h1>Lab 8: Build a Spam Filter, Then Grade It</h1>
 
     <p>This is where the whole course comes together. You'll build a <strong>real</strong> spam filter in

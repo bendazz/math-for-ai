@@ -1,5 +1,5 @@
 /* ============================================================
-   Section: Practice — Evaluating a Classifier  (Evaluation · 4)
+   Section: Practice — Evaluating a Classifier  (Evaluation · 5)
    Registered under id "evaluation-practice" (see manifest.js).
 
    Dedicated practice (per [[concept-sections-no-inline-problems]])
@@ -17,7 +17,7 @@
   const T = window.Toolkit;
 
   const html = `
-    <div class="eyebrow">Evaluation · 4</div>
+    <div class="eyebrow">Evaluation · 5</div>
     <h1>Practice: Evaluating a Classifier</h1>
 
     <p>A mixed set on judging a yes/no classifier — confusion matrix, accuracy, precision, recall, F1, and
